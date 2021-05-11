@@ -1,0 +1,53 @@
+/*--------------
+|    header     |
+---------------*/
+
+//desktop
+@media(min-width:1280px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  
+      
+        top: 0;
+        
+    }
+    .hamburguesa, .menu-check:checked{
+        display: none;
+    }
+    .logo{
+        
+        height: 50px;
+        width: 50px;
+        img{
+            height: 50px;
+            width: 50px;
+        }
+        
+
+    }
+    .menu{
+        display: inline-flex;
+        position: relative;
+        top: -5px;
+        left: auto;
+        background:transparent;
+        width: 100%;
+        
+   
+    a:active{
+        
+        border-bottom: $orange-dust 6px solid;
+        transition: .4s ease-in-out; 
+        outline: 0;
+        
+    }
+    }
+    .menu :is(a){
+        display: inline-block;        
+        text-decoration: none;
+        padding: 16px 20px;
+    }
+ 
+}
