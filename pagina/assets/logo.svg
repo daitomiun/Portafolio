@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1770.89 1014.13" style="enable-background:new 0 0 1770.89 1014.13;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5500FE;}
+	.st1{fill:#0744C1;}
+	.st2{fill:none;stroke:#023398;stroke-width:6;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#5500FE;stroke-width:4;stroke-miterlimit:10;}
+	.st4{fill:#FAF7EE;stroke:#FAF7EE;stroke-miterlimit:10;}
+	.st5{fill:#E3610B;stroke:#E3610B;stroke-miterlimit:10;}
+	.st6{fill:#FFED27;stroke:#FFED27;stroke-miterlimit:10;}
+	.st7{fill:#0077BB;stroke:#0077BB;stroke-miterlimit:10;}
+	.st8{fill:#8D7674;stroke:#8D7674;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#211915;stroke-miterlimit:10;}
+	.st11{fill:#FAF7EE;stroke:#FAF7EE;stroke-width:0.25;stroke-miterlimit:10;}
+	.st12{fill:none;}
+	.st13{fill:#484848;}
+	.st14{font-family:'IBM Plex Mono';}
+	.st15{font-size:248.7322px;}
+	.st16{letter-spacing:12;}
+	.st17{fill:#0077BB;stroke:#0077BB;stroke-width:0.25;stroke-miterlimit:10;}
+	.st18{fill:#FFED27;stroke:#FFED27;stroke-width:0.25;stroke-miterlimit:10;}
+	.st19{fill:#E3610B;stroke:#E3610B;stroke-width:0.25;stroke-miterlimit:10;}
+	.st20{fill:#484848;stroke:#484848;stroke-width:2;stroke-miterlimit:10;}
+	.st21{fill:none;stroke:#484848;stroke-width:2;stroke-miterlimit:10;}
+</style>
+
+
+<g id="test_logo">
+	<g>
+		<polygon class="st11" points="1321.75,377.42 1277.82,636.6 421.58,636.6 442.48,513.34 465.51,377.42   "/>
+		<g>
+			<rect x="475.32" y="411.18" class="st12" width="863.96" height="191.68"/>
+			<text transform="matrix(1 0 0 1 500.3246 595.2364)" class="st13 st14 st15 st16">Mateo </text>
+		</g>
+		<path class="st17" d="M1558.79,351.52c0,0.98-0.03,1.94-0.08,2.9v0.02l-1.87,11.09l-0.03,0.12l-1.99,11.77l-43.89,259.18    l-5.22,30.81v0.02l-1.23,7.26l-0.02,0.07c-4.97,20.33-22.17,35.85-43.36,38.35h-0.13c-0.02,0-0.02,0.02-0.02,0.02    s0-0.02-0.02-0.02h-11.77c0,0-0.02,0.02-0.03,0H408.62l12.97-76.51h1011.73l3.65-21.59l38.06-224.67l2.19-12.92l12.44-73.41    l0.53-3.1h23.08C1538.84,303.58,1558.79,325.22,1558.79,351.52z"/>
+		<polygon class="st18" points="465.51,377.42 442.48,513.34 421.58,636.6 408.62,713.11 331,713.11 336,683.56 336.19,682.47     343.96,636.6 349.43,604.3 349.43,604.28 349.53,603.72 378.14,435.03 378.14,435.01 387.89,377.42   "/>
+		<path class="st19" d="M387.62,377.42l-9.83,58.02l-28.54,168.33v0.02l-5.56,32.82l-8.04,47.39l-4.92,29.12    c-22.87,0.04-45.74,0.07-68.61,0.11c-1.81-0.05-3.85-0.22-6.04-0.61c-0.98-0.18-1.91-0.38-2.79-0.61l12.78-75.4l14.64-86.36    l14.77-87.21L310,377.42H387.62z"/>
+		<path class="st17" d="M1334.71,300.91l-12.97,76.51H309.67l-14.51,85.53l-14.77,87.26h-0.02l-14.64,86.39l-12.75,75.32h-0.02    c-34.74-8.26-60.92-38.57-62.96-75.32c-0.08-1.53-0.13-3.07-0.13-4.63c0-2.69,0.13-5.36,0.4-7.98l0.02-0.17l1.94-11.46l0.02-0.05    l39.81-234.9h0.41c0.22-2.97,0.58-5.89,1.08-8.77l0.08-0.51c6.87-37.43,39.08-65.98,78.2-67.22c3.71,0,7.43,0,11.14,0H1334.71z"/>
+		<polygon class="st19" points="1489.84,300.91 1489.29,304.14 1476.87,377.42 1474.73,390.09 1436.58,615.16 1432.95,636.6     1355.44,636.6 1399.37,377.42 1412.33,300.91   "/>
+		<polygon class="st18" points="1412.25,300.91 1399.28,377.42 1355.36,636.6 1277.82,636.6 1321.75,377.42 1334.71,300.91   "/>
+	</g>
+</g>
+
+
+</svg>

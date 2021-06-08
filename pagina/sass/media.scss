@@ -16,17 +16,7 @@
     .hamburguesa, .menu-check:checked{
         display: none;
     }
-    .logo{
-        
-        height: 50px;
-        width: 50px;
-        img{
-            height: 50px;
-            width: 50px;
-        }
-        
 
-    }
     .menu{
         display: inline-flex;
         position: relative;
@@ -38,7 +28,7 @@
    
     a:active{
         
-        border-bottom: $orange-dust 6px solid;
+        border-bottom: $white-typo 6px solid;
         transition: .4s ease-in-out; 
         outline: 0;
         
@@ -50,4 +40,9 @@
         padding: 16px 20px;
     }
  
+
+
+    .title{
+        font-size: 1.7rem;
+    }
 }

@@ -8,11 +8,15 @@
 |    Body      |
 ---------------*/
 body {
-  background-color: #FAF7EE;
+  background-color: #faf8ef;
 }
 
 p {
   font-family: "IBM Plex Sans", "sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "IBM Plex Mono", monospace, "sans serif";
 }
 
 /*--------------
@@ -23,7 +27,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 9.5rem;
+  height: 6rem;
   padding: 0 1.5rem;
   background: #8c7573;
   color: #fff;
@@ -35,12 +39,16 @@ p {
 }
 
 .logo {
-  height: 40px;
-  width: 40px;
+  height: 23rem;
 }
 .logo img {
-  height: 40px;
-  width: 40px;
+  height: 23rem;
+  width: 18rem;
+  position: absolute;
+}
+.logo a {
+  padding: 8rem 11rem;
+  position: absolute;
 }
 
 .menu-check {
@@ -78,18 +86,41 @@ p {
   list-style-type: none;
   top: 150px;
   left: 0;
-  background: #151df9;
+  background: #8c7573;
   width: 100%;
 }
-.menu a:hover {
-  border-bottom: white 5px solid;
+.menu .blue:hover {
+  border-bottom: #00a2ff 0.6rem solid;
+  border-radius: 1rem;
   transition: 0.2s ease-in-out;
   outline: 0;
 }
-.menu a:active {
-  border-bottom: #ff531a 6px solid;
-  transition: 0.4s ease-in-out;
-  outline: 0px;
+.menu .blue:active {
+  border-bottom: #0078bd 0.8rem solid;
+  transition: 0.2s ease-in-out;
+  outline: 0;
+}
+.menu .red:hover {
+  border-bottom: #f6863c 0.6rem solid;
+  border-radius: 1rem;
+  transition: 0.2s ease-in-out;
+  outline: 0;
+}
+.menu .red:active {
+  border-bottom: #e5620b 0.8rem solid;
+  transition: 0.2s ease-in-out;
+  outline: 0;
+}
+.menu .yellow:hover {
+  border-bottom: #ffed29 0.6rem solid;
+  border-radius: 1rem;
+  transition: 0.2s ease-in-out;
+  outline: 0;
+}
+.menu .yellow:active {
+  border-bottom: #ccbb00 0.8rem solid;
+  transition: 0.2s ease-in-out;
+  outline: 0;
 }
 
 .menu :is(a) {
@@ -97,9 +128,27 @@ p {
   color: white;
   font-family: "IBM Plex Mono", monospace, "sans serif";
   letter-spacing: 0.1rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   padding: 16px 0 24px 16px;
+}
+
+.title-sect {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: none;
+  height: 15rem;
+  width: 100%;
+  min-width: 20rem;
+  max-width: 50rem;
+  border-radius: 6rem;
+  margin: 0 1rem;
+  padding-top: 9rem;
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 /*--------------
@@ -117,15 +166,6 @@ p {
     display: none;
   }
 
-  .logo {
-    height: 50px;
-    width: 50px;
-  }
-  .logo img {
-    height: 50px;
-    width: 50px;
-  }
-
   .menu {
     display: inline-flex;
     position: relative;
@@ -135,7 +175,7 @@ p {
     width: 100%;
   }
   .menu a:active {
-    border-bottom: #ff531a 6px solid;
+    border-bottom: white 6px solid;
     transition: 0.4s ease-in-out;
     outline: 0;
   }
@@ -144,6 +184,10 @@ p {
     display: inline-block;
     text-decoration: none;
     padding: 16px 20px;
+  }
+
+  .title {
+    font-size: 1.7rem;
   }
 }
 

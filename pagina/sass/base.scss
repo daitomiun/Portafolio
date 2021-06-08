@@ -3,12 +3,14 @@
 ---------------*/
 
 body{
-    background-color: #FAF7EE;
+    background-color: $white-coffe;
 }
 p{
     font-family: $IBM-Plex-Sans;
 }
-
+h1, h2, h3, h4, h5, h6{
+    font-family: $IBM-italic;
+}
 
 
 /*--------------
@@ -20,9 +22,9 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 9.5rem;
+    height: 6rem;
     padding:0 1.5rem;
-    background: $blue-main;
+    background: $coffe-main;
     color: #fff;
     position: fixed;
     width: 100%;
@@ -31,15 +33,18 @@ p{
     box-shadow: 0px 5px 50px ;
 }
 .logo{
-    height: 40px;
-    width: 40px;
-
+    height: 23rem;
+        
     img{
-        height: 40px;
-        width: 40px;
+        height: 23rem;
+        width: 18rem;
+        position: absolute;
+    }
+    a{
+        padding: 8rem 11rem;
+        position: absolute;
     }
 }
-
 .menu-check{
     opacity: 0;
     position: absolute;
@@ -52,7 +57,7 @@ p{
 .menu-check:checked ~ label .closed,
 .menu-check:checked ~ .menu{
     display: block;
-    box-shadow: 0px 5px 20px $blue-main;
+    box-shadow: 0px 5px 20px $coffe-main;
     
 }
 .closed, .hamburguesa{
@@ -70,31 +75,83 @@ p{
     list-style-type: none;
     top: 150px;
     left: 0;
-    background: $blue-main-hard;
+    background: $coffe-main;
     width: 100%;
     
-
-    a:hover{
-        
-        border-bottom: $white-typo 5px solid;
+    .blue:hover{
+        border-bottom: $blue-main-50 .6rem solid;
+        border-radius: 1rem;
         transition: .2s ease-in-out; 
         outline: 0;
     }
-    a:active{
-        
-        border-bottom: $orange-dust 6px solid;
-        transition: .4s ease-in-out; 
-        outline: 0px;
-        
+    .blue:active{
+        border-bottom: $blue-main .8rem solid;
+        transition: .2s ease-in-out;  
+        outline: 0;
     }
+
+
+    .red:hover{
+        border-bottom: $red-main-60 .6rem solid;
+        border-radius: 1rem;
+        transition: .2s ease-in-out; 
+        outline: 0;
+    }
+    .red:active{
+        border-bottom: $red-main .8rem solid;
+        transition: .2s ease-in-out; 
+        outline: 0;
+    }
+   
+
+
+    .yellow:hover{
+        border-bottom: $yellow-main .6rem solid;
+        border-radius: 1rem;
+        transition: .2s ease-in-out; 
+        outline: 0;
+    }
+    .yellow:active{
+        border-bottom: $yellow-main-40 .8rem solid;
+        transition: .2s ease-in-out; 
+        outline: 0;
+    }
+  
 }
 .menu :is(a){
     display: flex;
     color: $white-typo;
     font-family: $IBM-italic;
     letter-spacing: 0.1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     padding: 16px 0 24px 16px;
     
+}
+
+
+
+
+
+
+.title-sect{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    
+    display: none;
+    height: 15rem;
+    width: 100%;
+    min-width: 20rem;
+    max-width: 50rem;
+    border-radius: 6rem;
+    margin: 0 1rem;
+    // background-color: $red-main;
+    // background-color: $blue-main;
+    padding-top: 9rem;
+    text-align: center;
+    // color: #fff;
+    font-size: 1.3rem;
+    // background-color: $yellow-main;
 }
