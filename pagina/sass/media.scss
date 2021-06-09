@@ -3,6 +3,16 @@
 ---------------*/
 
 //desktop
+@media(min-width:900px)
+{
+    .container{
+
+        .proyect-cards{
+            margin: 4rem 1rem;
+            
+        }
+    }
+}
 @media(min-width:1280px){
     .header{
         display: flex;
@@ -44,5 +54,32 @@
 
     .title{
         font-size: 1.7rem;
+    }
+
+
+    
+    /*--------------
+    |   Sections    |
+    ---------------*/
+
+
+    
+    .container{
+
+        .proyect-cards{
+          
+            margin: 2rem 4rem;
+            padding: 1.5rem 3rem;
+
+            .proyect-img{
+
+                img{
+                    width: 16rem;
+                    height: 14rem;
+                    margin: 1.5rem 0 1.5rem 0;
+                    border-radius: 3rem;
+                }
+            }
+        }
     }
 }

@@ -41,9 +41,10 @@ h1, h2, h3, h4, h5, h6{
         position: absolute;
     }
     a{
-        padding: 8rem 11rem;
+        padding: 7rem 9rem;
         position: absolute;
     }
+ 
 }
 .menu-check{
     opacity: 0;
@@ -132,6 +133,9 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+/*--------------
+|    Titles     |
+---------------*/
 
 
 .title-sect{
@@ -154,4 +158,58 @@ h1, h2, h3, h4, h5, h6{
     // color: #fff;
     font-size: 1.3rem;
     // background-color: $yellow-main;
+}
+
+
+/*--------------
+|   Sections    |
+---------------*/
+
+
+// .web-sect, .game-sect, .design-sect{
+
+//     .blue{
+
+//     }
+//     .yellow{
+
+//     }
+//     .red{
+
+//     }
+
+// }
+
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .proyect-cards{
+        width: 100%;
+        height: 37rem;
+        // min-height: 24rem;
+        // max-height: 30rem;
+        min-width: 15rem;
+        max-width: 28rem;
+        border-radius: 10rem;
+        margin: 4rem 0;
+        padding: 1.8rem 2rem;
+        border: 0.5rem solid black;
+        text-align: center;
+
+        .proyect-img{
+            margin: 0 auto;
+            
+            img{
+                width: 16rem;
+                height: 14rem;
+                margin: 1.5rem 0 1.5rem 0;
+                border-radius: 3rem;
+            }
+        }
+    }
 }
