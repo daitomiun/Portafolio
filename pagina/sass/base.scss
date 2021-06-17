@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6{
 .menu{
     position: absolute;
     list-style-type: none;
-    top: 150px;
+    top: 5rem;
     left: 0;
     background: $coffe-main;
     width: 100%;
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6{
     min-width: 20rem;
     max-width: 50rem;
     border-radius: 6rem;
-    margin: 0 1rem;
+    margin: 0 1rem 15rem 0;
     // background-color: $red-main;
     // background-color: $blue-main;
     padding-top: 9rem;
@@ -166,19 +166,76 @@ h1, h2, h3, h4, h5, h6{
 ---------------*/
 
 
-// .web-sect, .game-sect, .design-sect{
+.web-sect, .game-sect, .design-sect{
 
-//     .blue{
+    &.blue{
+        .container{
+            .proyect-cards{
+                border: 0.5rem solid $blue-main;
+                box-shadow: 18px 23px $blue-main-20;
+                a:hover{
+                    img{
+                        
+                        box-shadow: 1rem 1rem $blue-main;
+                    }
+                }   
+                a:focus{
+                    // border-radius: 3rem;
+                    // outline-offset: none;
+                    img{
+                        box-shadow: 1rem 1rem $blue-main;
+                        
+                    }
+                }  
+            }
+        }
+    }
+    &.yellow{
+        .container{
+            .proyect-cards{
+                border: 0.5rem solid $yellow-main;
+                box-shadow: 18px 23px $yellow-main-40;
+                a:hover{
+                    img{
+                        
+                        box-shadow: 1rem 1rem $yellow-main;
+                    }
+                }
+                a:focus{
+                    // border-radius: 3rem;
+                    // outline-offset: none;
+                    img{
+                        box-shadow: 1rem 1rem $yellow-main;
+                        
+                    }
+                }
+            }
+        }
+    }
+    &.red{
+        .container{
+            .proyect-cards{
+                border: 0.5rem solid $red-main;
+                box-shadow: 18px 23px $red-main-30;
+                a:hover{
+                    img{
+                        
+                        box-shadow: 1rem 1rem $red-main;
+                    }
+                }
+                a:focus{
+                    // border-radius: 3rem;
+                    // outline-offset: none;
+                    img{
+                        box-shadow: 1rem 1rem $red-main;
+                        
+                    }
+                }
+            }
+        }
+    }
 
-//     }
-//     .yellow{
-
-//     }
-//     .red{
-
-//     }
-
-// }
+}
 
 
 .container{
@@ -190,16 +247,17 @@ h1, h2, h3, h4, h5, h6{
 
     .proyect-cards{
         width: 100%;
-        height: 37rem;
+        height: 34rem;
         // min-height: 24rem;
         // max-height: 30rem;
-        min-width: 15rem;
-        max-width: 28rem;
+        min-width: 10rem;
+        max-width: 25rem;
         border-radius: 10rem;
         margin: 4rem 0;
         padding: 1.8rem 2rem;
-        border: 0.5rem solid black;
+        border: 0.5rem solid ;
         text-align: center;
+        box-shadow: 18px 23px;
 
         .proyect-img{
             margin: 0 auto;
@@ -210,6 +268,23 @@ h1, h2, h3, h4, h5, h6{
                 margin: 1.5rem 0 1.5rem 0;
                 border-radius: 3rem;
             }
+            a{
+                padding: 15rem 0 0;
+            }
+            a:hover{
+                img{
+                    transition:  1s;
+                }
+            }  
+            a:focus{
+                // border-radius: 3rem;
+                border: none;
+                outline: none;
+                img{
+                    border: .5rem solid black;
+                }
+            }  
+                  
         }
     }
 }
