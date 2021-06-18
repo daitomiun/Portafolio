@@ -47,6 +47,9 @@
   height: 1.3em;
   bottom: -0.3em;
 }
+.cube.front-monitor-left .left, .cube.front-monitor-right .left, .cube.front-monitor-up .left, .cube.front-monitor-down .left {
+  box-shadow: 0 0 0.2em #000a inset;
+}
 .cube.front-monitor-left .front {
   transform: translateZ(-0.7em);
 }
@@ -55,6 +58,7 @@
 }
 .cube.front-monitor-left .back {
   transform: rotateY(180deg) translateZ(0.9em);
+  box-shadow: 0 0 0.32em #000a inset;
 }
 .cube.front-monitor-left .left {
   transform: rotateY(270deg) translateX(-0.8em) translateZ(0.1em);
@@ -75,6 +79,7 @@
   transform: rotateY(90deg) translateZ(-0.8em);
 }
 .cube.front-monitor-right .back {
+  box-shadow: 0 0 0.32em #000a inset;
   transform: rotateY(180deg) translateZ(-0.9em);
 }
 .cube.front-monitor-right .left {
@@ -424,6 +429,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 .web-sect.red .container .proyect-cards a:focus img, .game-sect.red .container .proyect-cards a:focus img, .design-sect.red .container .proyect-cards a:focus img {
   box-shadow: 1rem 1rem #e5620b;
+}
+
+.main-sect {
+  margin-top: 10rem;
+}
+.main-sect .container {
+  display: block;
+  text-align: center;
+  line-height: 3rem;
+}
+.main-sect .container img {
+  margin-top: 5rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
 }
 
 .container {

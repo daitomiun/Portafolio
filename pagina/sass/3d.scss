@@ -90,11 +90,19 @@
         width: .2em;
         height: 1.3em;
         bottom: -0.3em;
+        
+        .left{
+            box-shadow: 0 0 0.2em #000a inset;
+            
+        }
     }
     &.front-monitor-left{
         .front{ transform: translateZ(-.7em);}
         .right{ transform: rotateY(90deg) translateZ(.8em);}
-        .back{ transform: rotateY(180deg) translateZ(.9em);}
+        .back{ 
+            transform: rotateY(180deg) translateZ(.9em);
+            box-shadow: 0 0 0.32em #000a inset;
+        }
         .left{ transform: rotateY(270deg) translateX(-0.8em) translateZ(0.1em);}
         .top{ 
             width: .2em;
@@ -115,7 +123,10 @@
         // transform: translateX(1em);
         .front{ transform: translateZ(.7em)  ;}
         .right{ transform: rotateY(90deg) translateZ(-.8em);}
-        .back{ transform: rotateY(180deg) translateZ(-.9em);}
+        .back{ 
+            box-shadow: 0 0 0.32em #000a inset;
+            transform: rotateY(180deg) translateZ(-.9em);
+        }
         .left{ transform: rotateY(270deg) translateX(0.8em) translateZ(0.1em);}
         .top{ 
             width: .2em;
@@ -141,6 +152,7 @@
                 translateZ(0.9em);
             height: .2em;
             width: 1.8em;
+            
         }
         .top{ 
             width: .2em;

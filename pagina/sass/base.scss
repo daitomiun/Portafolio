@@ -236,7 +236,21 @@ h1, h2, h3, h4, h5, h6{
     }
 
 }
+.main-sect{
+    margin-top: 10rem;
 
+    .container{
+        display: block;
+        text-align: center;
+        line-height: 3rem;
+        img{
+            margin-top: 5rem;
+            width: 20rem;
+            height: 20rem;
+            border-radius: 50%;
+        }
+    }
+}
 
 .container{
 
