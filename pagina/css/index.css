@@ -282,11 +282,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-  height: 23rem;
+  height: 4rem;
 }
 .logo img {
-  height: 23rem;
-  width: 18rem;
+  height: 4rem;
   position: absolute;
 }
 .logo a {
@@ -490,6 +489,40 @@ h1, h2, h3, h4, h5, h6 {
   border: 0.5rem solid black;
 }
 
+.background.purple {
+  margin-top: 10rem;
+  background: #8c7573;
+  box-shadow: none;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+.background.purple h1, .background.purple p, .background.purple a {
+  padding: 2.8125rem 0;
+  color: #fff;
+}
+.background.purple h1:nth-of-type(1) {
+  font-size: 3rem;
+}
+
+@media (min-width: 800px) {
+  .background.purple {
+    border-radius: 20px 20px 0 0;
+  }
+}
+@media (min-width: 1200px) {
+  .background.purple {
+    border-radius: 30px 30px 0 0;
+  }
+  .background.purple h1:nth-of-type(1) {
+    font-size: 4rem;
+  }
+  .background.purple h1 {
+    font-size: 3rem;
+  }
+  .background.purple p {
+    font-size: 2rem;
+  }
+}
 /*--------------
 |    header     |
 ---------------*/
