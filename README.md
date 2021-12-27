@@ -1,8 +1,5 @@
-# Portafolio
-Mis proyectos y trabajos estan en mi pagina web.
+# **Portafoliio**
 
-## link a la url ##
+Mi portafolio en el que se encuentran mis proyectos de desarrolo web y de diseño, muy pronto renovare la pagina web con nuevas tecnologias y proyectos.
 
-
-### https://naughty-roentgen-3cb991.netlify.app/ ###
-
+[Pagina web](https://daitomiun.github.io/Portafolio/ "Pagina web")
